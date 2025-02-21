@@ -12,10 +12,6 @@ npm-debug.log*
 
 
 
-# Build output
-
-build/
-out/
 
 # IDE specific files
 .vscode/
