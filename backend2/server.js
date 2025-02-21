@@ -10,7 +10,9 @@ app.use(cors());
 
 // API Route
 app.get("/api/", (req, res) => {
-    res.send(`Response from backend2 on port ${PORT}`);
+    setTimeout(() => {
+        res.send(`Response from backend2 on port ${PORT}`);
+    }, 1000); // Delay response for 1 second (1000 milliseconds)
 });
 
 // Start Server
